@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       <h1>BIP-39 Mnemonic Generator</h1>
-      <button onClick={() => generateBatchMnemonics(10)}>Generate 10 Mnemonics</button>
+      <button onClick={() => generateBatchMnemonics(100)}>Generate 100 Mnemonics</button>
       <MnemonicTable />
     </div>
   );
